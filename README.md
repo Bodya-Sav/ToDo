@@ -1,2 +1,2 @@
 # ToDo
-React ToDo App
+React ToDo App by Bodichka
