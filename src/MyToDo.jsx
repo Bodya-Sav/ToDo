@@ -13,7 +13,7 @@ export default function ToDo() {
     const [showCheckedOnly, setShowCheckedOnly] = useState(false); // Новое состояние для отображения только выполненных задач
 
     const addTodo = () => {
-        if (node !== "") {
+        if (node.trim() !== "") {
             setTodos([...todos, { text: node, isDone: false }]); // Добавляем объект задачи
             setNode("");
         }
