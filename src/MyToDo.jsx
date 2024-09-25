@@ -24,7 +24,7 @@ export default function ToDo() {
     };
 
     const toggleTodoDone = (indexToToggle) => {
-        setTodos(todos.map((todo, index) => 
+        setTodos(todos.map((todo, index) =>     
             index === indexToToggle ? { ...todo, isDone: !todo.isDone } : todo
         ));
     };
